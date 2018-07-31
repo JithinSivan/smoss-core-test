@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.controller;
+package com.ust.transein.bmw.smoss.controller;
 
 import org.json.JSONObject;
 import org.junit.jupiter.api.AfterAll;
@@ -11,15 +11,15 @@ import org.springframework.http.ResponseEntity;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * Tests for {@link HelloWorldController}. Modify the tests in order to support your use case as you build your project.
+ * Tests for {@link UserController}. Modify the tests in order to support your use case as you build your project.
  */
-@DisplayName("Tests for HelloWorldController")
-public class HelloWorldControllerTest {
+@DisplayName("Tests for UserController")
+public class UserControllerTest {
 
     private static final String EXPECTED_RESPONSE_VALUE = "Hello AWS CodeStar!";
     private static final String INPUT_NAME = "AWS CodeStar";
 
-    private final HelloWorldController controller = new HelloWorldController();
+    private final UserController controller = new UserController();
 
     /**
      * Initializing variables before we run the tests.
@@ -42,7 +42,7 @@ public class HelloWorldControllerTest {
     }
 
     /**
-     * Basic test to verify the result obtained when calling {@link HelloWorldController#helloWorldGet} successfully.
+     * Basic test to verify the result obtained when calling {@link UserController#helloWorldGet} successfully.
      */
     @Test
     @DisplayName("Basic test for GET request")
@@ -56,7 +56,7 @@ public class HelloWorldControllerTest {
     }
 
     /**
-     * Basic test to verify the result obtained when calling {@link HelloWorldController#helloWorldPost} successfully.
+     * Basic test to verify the result obtained when calling {@link UserController#helloWorldPost} successfully.
      */
     @Test
     @DisplayName("Basic test for POST request")

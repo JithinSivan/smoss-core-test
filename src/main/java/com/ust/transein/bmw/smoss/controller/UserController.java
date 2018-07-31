@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates.controller;
+package com.ust.transein.bmw.smoss.controller;
 
 import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * Basic Spring web service controller that handles all GET requests.
  */
 @RestController
-@RequestMapping("/")
-public class HelloWorldController {
+@RequestMapping("/User")
+public class UserController {
 
     private static final String MESSAGE_FORMAT = "Hello %s!";
 
@@ -29,4 +29,5 @@ public class HelloWorldController {
     private String createResponse(String name) {
         return new JSONObject().put("Output", String.format(MESSAGE_FORMAT, name)).toString();
     }
+
 }
