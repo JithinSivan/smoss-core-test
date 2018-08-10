@@ -21,8 +21,8 @@ phases:
 artifacts:
   type: zip
   files:
-    - 'ROOT/WEB-INF/classes/com/aws/codestar/projecttemplates/Application.class'
-    - 'ROOT/WEB-INF/classes/com/aws/codestar/projecttemplates/controller/HelloWorldController.class'
+    - 'ROOT/WEB-INF/classes/com/ust/transein/bmw/SMOSS-core/SMOSS.class'
+    - 'ROOT/WEB-INF/classes/com/ust/transein/bmw/SMOSS-core/controller/UserController.class'
     - 'ROOT/WEB-INF/lib/json-20180130.jar'
     - 'ROOT/WEB-INF/lib/classmate-1.3.4.jar'
     - 'ROOT/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar'
